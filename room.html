@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "LetsChat.css">
+        <script src = "room.js"></script>
+    </head>
+    <body>
+        <center>
+        <h1>Welcome Back</h1><h1 id = "usertag"></h1>
+        <button id = "logoutbtn" onclick="Logout()" class="btn btn-danger">Logout</button>
+        <br>
+        <br>
+        <div id = "roommodule" style="background-color: white;" style="border-radius:10px;">
+            <input type="text" id="room_input" placeholder="Room Name">
+            <button id = "add_room" class="btn btn-sucess" onclick="AddRoom()">Add Room</button>
+        </div>
+        <br>
+            <h3>Your Rooms</h3>
+            <div id = "output" style="background-color: white;" style="border-radius:10px;"></div>
+    </body>
+</html>
